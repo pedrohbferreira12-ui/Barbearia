@@ -1,6 +1,18 @@
-
 header {
     background-color: #bbbbbb;
+    padding: 20px 0 0;
+}
+
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 126px;
+    right: 0;
 }
 
 nav li {
