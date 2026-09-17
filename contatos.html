@@ -27,13 +27,30 @@
     <main>
         <form action="">
             <label for="nomesobrenome">Nome e Sobrenome:</label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="inputs-padrao">
 
             <label for="email">E-mail:</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="inputs-padrao">
 
             <label for="telefone">Telefone:</label>
-            <input type="text" id="telefone">
+            <input type="text" id="telefone" class="inputs-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="67" rows="10"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email">e-mail</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">whatsapp</label>
+
+            </div>
+
+            <label for="checkbox"><input type="checkbox" name="" id="checkbox">Gostaria de receber nossas novidades por
+                e-mail?</label>
 
             <input type="submit" value="Enviar">
         </form>
