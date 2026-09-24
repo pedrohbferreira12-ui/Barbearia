@@ -33,6 +33,41 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.banner {
+    width: 100%;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.utensilios {
+    width: 150px;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
+
 footer {
     text-align: center;
     background-image: url(./img/bg.jpg);
