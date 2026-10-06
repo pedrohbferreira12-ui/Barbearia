@@ -76,7 +76,7 @@ nav a:hover {
 .mapa {
     padding: 3em 0;
     margin: 0 auto;
-    background: linear-gradient(#fefefe,#888888);
+    background: linear-gradient(#fefefe, #888888);
 }
 
 .mapa p {
@@ -109,6 +109,13 @@ nav a:hover {
 
 .imagembeneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 20px #000;
+}
+
+.imagembeneficios:hover {
+    opacity: 0.3;
 }
 
 .conteudo-beneficios {
