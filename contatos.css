@@ -87,7 +87,8 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: solid 1px #000;
     padding: 8px 15px;
 }
@@ -98,4 +99,34 @@ footer {
     color: #fff;
     padding: 40px 0;
     font-size: 13px;
+}
+
+@media screen and (max-width:480px) {
+    .caixa {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static
+    }
+
+    main {
+        width: auto;
+        padding: 0 0 0 30px;
+    }
+
+    .inputs-padrao {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .enviar{
+        width: 80%;
+        padding: 15px;
+        font-size: 16px;
+    }
 }

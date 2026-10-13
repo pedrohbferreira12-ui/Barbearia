@@ -86,3 +86,32 @@ footer {
     padding: 40px 0;
     font-size: 13px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .caixa {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .produtos {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .produtos li {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        box-sizing: border-box; 
+    }
+
+}
